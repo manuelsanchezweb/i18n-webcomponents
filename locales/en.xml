@@ -1,0 +1,31 @@
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="file">
+    <body>
+      <trans-unit id="greeting">
+        <source>Hello</source>
+        <target>Hello</target>
+      </trans-unit>
+      <trans-unit id="farewell">
+        <source>Goodbye</source>
+        <target>Goodbye</target>
+      </trans-unit>
+      <trans-unit id="custom-greeting">
+        <source>Hello, {name}</source>
+        <target>Hello, {name}</target>
+      </trans-unit>
+      <trans-unit id="coins">
+        <source>You have {number} coins, {name}</source>
+        <target>You have {number} coins, {name}</target>
+      </trans-unit>
+      <trans-unit id="days-monday">
+        <source>Monday</source>
+        <target>Monday</target>
+      </trans-unit>
+      <trans-unit id="days-lovely-tuesday">
+        <source>Tuesday</source>
+        <target>Tuesday</target>
+      </trans-unit>
+      <!-- ... additional trans-unit elements for other keys ... -->
+    </body>
+  </file>
+</xliff>

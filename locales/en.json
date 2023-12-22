@@ -1,0 +1,12 @@
+{
+  "greeting": "Hello",
+  "farewell": "Goodbye",
+  "custom-greeting": "Hello, {name}",
+  "coins": "You have {number} coins, {name}",
+  "days": {
+    "monday": "Monday",
+    "lovely": {
+      "tuesday": "Tuesday"
+    }
+  }
+}
