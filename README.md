@@ -161,5 +161,9 @@ I have tried to equip the npm with a good number of <code>try/catch</code>, with
 I recommend to take a look to the following links for further and quicker development:
 
 - [locales examples](https://github.com/manuelsanchezweb/i18n-webcomponents/tree/main/locales)
-- [example of a page with the web component]()
+- [example of a page with the web component](https://github.com/manuelsanchezweb/i18n-webcomponents/blob/main/examples/index.html)
 - [config example](https://github.com/manuelsanchezweb/i18n-webcomponents/blob/main/i18n.config.ts)
+
+## Contact
+
+I have developed it solo with the help of Chat GPT and [a cool starter repo for npm packages with TypeScript](https://github.com/ryansonshine/typescript-npm-package-template) that I can only recommend. In case of some issues, please do not hesitate to [contact me](mailto:manusansan22@gmail.com).
