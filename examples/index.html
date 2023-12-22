@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <section>
+        <h2>Basic use</h2>
+        <p>We just simply pass the key.</p>
+      </section>
+
+      <f-translate key="greeting"></f-translate>
+
+      <f-translate key="farewell"></f-translate>
+
+      <section>
+        <h2>Interpolation</h2>
+        <p>
+          Interpolation is done by passing the params attribute. The value of
+          the attribute must be a JSON string. The keys of the JSON string must
+          match the keys of the interpolation values
+        </p>
+      </section>
+
+      <f-translate
+        key="custom-greeting"
+        params='{"name": "Manuel"}'
+      ></f-translate>
+
+      <f-translate
+        key="coins"
+        params='{"number": "7", "name": "Paco"}'
+      ></f-translate>
+
+      <section>
+        <h2>Nested key/values</h2>
+        <p>Different levels of depth are accepted</p>
+      </section>
+
+        <f-translate key="days-monday"></f-translate>
+    
+        <f-translate key="days-lovely-tuesday"></f-translate>
+
+      <section>
+        <h2>Localizing attributes</h2>
+        <p>
+          For accessibility and good practices reasons, we can also localize
+          different attributes like <code>aria-label</code> or
+          <code>title</code>. The way it is a bit different, we are passing
+          props inside the attribute <code>data-i18n</code>
+        </p>
+      </section>
+      <button
+        class="cool-btn"
+        data-i18n='{"aria-label": "days-monday", "title": "days-lovely-tuesday"}'
+      >
+        Hola
+      </button>
+
+      <section>
+        <h2>Error handling</h2>
+        <p>
+          If the key is not available, i.e., not to be found on the data file of
+          the defaultLanguage, then a error message will be shown
+        </p>
+
+        <f-translate key="nothaving"></f-translate>
+      </section>
+
+      <a class="cool-btn" href="https://www.google.es">A google</a>
+      <button class="cool-btn" data-translate="en">English</button>
+      <button class="cool-btn" data-translate="es">Spanish</button>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
