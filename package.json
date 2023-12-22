@@ -1,7 +1,7 @@
 {
   "name": "@msweb/i18n-webcomponents",
-  "version": "0.1.0",
-  "description": "A template for creating npm packages using TypeScript and VSCode",
+  "version": "0.1.1",
+  "description": "An opinionated NPM package to handle i18n with web components",
   "main": "./lib/index.js",
   "files": [
     "lib/**/*"
